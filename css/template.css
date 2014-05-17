@@ -1,0 +1,107 @@
+*{
+    -moz-box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.span12{
+    width: 97.8%;   
+}
+.section{
+    max-width: 100%;
+    height:640px;   
+    padding: 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+.navbar-ansonic-top {
+   margin-top: 81px;
+   margin-bottom:0;
+}
+
+.navbar-ansonic-bottom {
+   box-shadow:0 0 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-height{
+    min-height: 80px;
+}
+
+#logo-top{
+    max-width: 126px;
+    max-height: 80px;
+    margin-left: 35%;   
+    margin-right: 20%;
+}
+
+.opacito{
+    opacity:0.9;
+}
+/*
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    background-color: #1B1B1B;
+    background-image: linear-gradient(to bottom, #006600, #009900);
+    background-repeat: repeat-x;
+    border-color: #252525;
+
+}*/
+
+.menu_ansonic{
+    letter-spacing:0.1em;
+    font-weight: bold;
+    margin-top: 2.8%;
+}
+
+#banner{
+    padding: inherit;
+    padding-top: 5.8%;
+}
+
+.fundo_claro{
+    background-image:url(../img/grey_green.png);
+}
+
+
+.fundo_escuro{
+    background-image:url(../img/shattered_green.png);
+}
+
+.fundo_escuro img{
+    float: right;
+}
+
+.texto_fundo_escuro{
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
+    color: #FFF;
+    max-width: 50%;
+    border-radius: 15px;
+    padding: 5%;
+    text-align: justify;
+    float: left;
+}
+
+.texto_fundo_escuro h1{
+    text-align: center;
+}
+
+/*.texto_fundo_escuro a{
+    color: #ffff66;
+}*/
+
+.texto_fundo_claro{
+    max-width: 50%;
+    padding: 5%;
+    text-align: justify;
+    float: right;;
+    margin-right: 10%;
+}
+
+.texto_fundo_claro h1{
+    text-align: center;
+}

@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <title>Testes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/template.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+	<!-- LINK PAGE SCROLLER PRO JS FILE -->
+	<script type="text/javascript" src="js/jquery.pagescroller.lite.js"></script>
+	<!-- / -->
+
+	<script type="text/javascript">
+	
+
+  function banner_show(){
+    $('#banner').slideDown(300);
+  }
+
+  function banner_hide(){
+    $('#banner').slideUp(300);
+  }
+
+	$(document).ready(function(){
+		
+		// initiate page scroller plugin
+		$('body').pageScroller({
+			navigation: '#menu'
+		});
+					
+	});
+
+
+
+		
+	</script>
+	
+</head>
+
+<body>
+<a name="inicio" ></a>
+	<!--Modal-->
+    <div id="atendimento" class="modal hide fade" tabindex="-1" role="dialog" aria-labelleby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <h3 id="myModalLabel">Atendimento</h3>
+      </div>
+      <div class="modal-body">
+        <p>Fone: (93) 3518-7678</p>
+        <p>SEG A SEXTA: 08:00h as 18:00h </p>
+        <p>SABADO 08:00h as 12:00h</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+      </div>
+    </div>
+    <!--Fim do Modal-->
+
+
+	<div class="container">
+
+		<div class="row">
+      <div class="span12">
+
+        <div class="navbar navbar-fixed-top navbar-ansonic-bottom opacito">
+          <div class="navbar-inner navbar-height" id="menu">
+            <ul class="nav">
+              <li><img src="img/Logo2.png" id="logo-top"/></li>
+              <li class="menu_ansonic"><a class="active" href="#">Home</a></li>
+              <li class="menu_ansonic"><a href="#" sytle="margin-top:2 0px">Exames</a></li>
+              <li class="menu_ansonic"><a href="#">Agendamento</a></li>
+              <li class="menu_ansonic"><a href="#">Convênios</a></li>
+              <li class="menu_ansonic"><a href="#">Empresa</a></li>
+            </ul>
+            <div><a href="#atendimento" style="margin-right:7%;color:#fff;float:right;margin-top:2%" role="button" class="btn btn-danger text-right" data-toggle="modal">ATENDIMENTO</a></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--<div class="row">
+			<div class="span12">
+				<div class="navbar navbar-inverse navbar-fixed-top navbar-ansonic-top">
+					<div class="navbar-inner" id="menu" style="background-color:#ccc">
+            <!--<img src="http://placehold.it/50x50"/ style="float:left">--
+
+            <button type="button" class="btn btn-navbar";data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+						<div class="callapse nav-collapse">
+							<ul class="nav" style="margin-left:5.5%;">
+								<li><a class="active" href="#">Home</a></li>
+								<li><a href="#" >Exames</a></li>
+								<li><a href="#">Agendamento</a></li>
+								<li><a href="#">Convênios</a></li>
+								<li><a href="#">Empresa</a></li>
+								<li></li>
+								
+							</ul>
+						</div>
+					</div><!-- [END] #nave --
+				</div>
+			</div>
+		</div>-->
+
+    <!--<div id="espaco_top"></div>-->
+		<div class="row">
+			<div class="span12 section"  id="banner">
+                  
+        <div id="myCarousel" class="carousel slide">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active"><img class="img-rounded" src="http://placehold.it/1350x608"></div>
+            <div class="item"><img class="img-rounded" src="http://placehold.it/1350x608"></div>
+            <div class="item"><img class="img-rounded" src="http://placehold.it/1350x608"></div>
+          </div>
+          <a href="#myCarousel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
+          <a href="#myCarousel" class="carousel-control right" data-slide="next">&rsaquo;</a>
+        </div>
+
+      </div>
+		</div>
+
+		<div class="row">
+			<div class="span12 section fundo_claro">
+        <div class="texto_fundo_claro">
+                  <h1>Exames</h1>
+                  <p>CSS é a sigla em inglês para Cascading Style Sheet que em português foi traduzido para folha de estilo em cascata e é um mecanismo simples para adicionar estilos (p.ex., fontes, cores, espaçamentos) aos documentos Web.
+
+    A grande vantagem do uso de CSS é a de separar a marcação HTML, da apresentação do site. Em outras palavras, vale dizer que o HTML destina-se unicamente a estruturar e marcar o conteúdo, ficando por conta das CSS toda a responsabilidade pelo visual do documento.
+                  </p>
+                  <a href="#inicio" class="btn btn-danger visible-phone">Topo</a>
+                  <a href="#" class=" btn btn-primary">Leia Mais →</a>
+        </div>
+        <img class="img-rounded" src="http://placehold.it/400x450">
+      </div>
+		</div>
+
+		<div class="row">
+			<div class="span12 section fundo_escuro">
+        <div class="texto_fundo_escuro">
+                  <h1>Agendamento</h1>
+                  <p>CSS é a sigla em inglês para Cascading Style Sheet que em português foi traduzido para folha de estilo em cascata e é um mecanismo simples para adicionar estilos (p.ex., fontes, cores, espaçamentos) aos documentos Web.
+
+    A grande vantagem do uso de CSS é a de separar a marcação HTML, da apresentação do site. Em outras palavras, vale dizer que o HTML destina-se unicamente a estruturar e marcar o conteúdo, ficando por conta das CSS toda a responsabilidade pelo visual do documento.
+                  </p>
+                  <a href="#inicio" class="btn btn-danger visible-phone">Topo</a>
+                  <a href="#" class=" btn btn-primary">Leia Mais →</a>
+        </div>
+        <img class="img-rounded" src="http://placehold.it/400x450">
+      </div>
+		</div>
+
+		<div class="row">
+			<div class="span12 section fundo_claro">
+        <div class="texto_fundo_claro">
+                  <h1>Convênios</h1>
+                  <p>CSS é a sigla em inglês para Cascading Style Sheet que em português foi traduzido para folha de estilo em cascata e é um mecanismo simples para adicionar estilos (p.ex., fontes, cores, espaçamentos) aos documentos Web.
+
+    A grande vantagem do uso de CSS é a de separar a marcação HTML, da apresentação do site. Em outras palavras, vale dizer que o HTML destina-se unicamente a estruturar e marcar o conteúdo, ficando por conta das CSS toda a responsabilidade pelo visual do documento.
+                  </p>
+                  <a href="#inicio" class="btn btn-danger visible-phone">Topo</a>
+                  <a href="#" class=" btn btn-primary">Leia Mais →</a>
+        </div>
+        <img class="img-rounded" src="http://placehold.it/400x450">
+      </div>
+		</div>
+
+		<div class="row">
+			<div class="span12 section fundo_escuro">
+        <div class="texto_fundo_escuro">
+                  <h1>Empresa</h1>
+                  <p>CSS é a sigla em inglês para Cascading Style Sheet que em português foi traduzido para folha de estilo em cascata e é um mecanismo simples para adicionar estilos (p.ex., fontes, cores, espaçamentos) aos documentos Web.
+
+    A grande vantagem do uso de CSS é a de separar a marcação HTML, da apresentação do site. Em outras palavras, vale dizer que o HTML destina-se unicamente a estruturar e marcar o conteúdo, ficando por conta das CSS toda a responsabilidade pelo visual do documento.
+                  </p>
+                  <a href="#inicio" class="btn btn-danger visible-phone">Topo</a>
+                  <a href="#" class=" btn btn-primary">Leia Mais →</a>
+          </div>
+          <img class="img-rounded" src="http://placehold.it/400x450">
+        </div>
+		</div>
+
+			
+	</div><!-- [END] container -->
+	
+</body><!-- [END] body -->
+</html><!-- [END] html -->
